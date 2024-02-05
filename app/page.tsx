@@ -1,11 +1,13 @@
 import Image from "next/image";
+import { useRef } from "react";
 
 export default function Home() {
+
   return (
     <>
-      <div className="flex flex-row justify-between my-3 mx-10 text-xl font-mono">
+      <div className="flex flex-row justify-between my-4 mx-10 text-xl font-mono">
         <div>
-          <a href="/">Home</a>
+          <a href="#home">Home</a>
         </div>
         <div className="flex justify-evenly gap-10">
           <a href="#description">About</a>
@@ -14,11 +16,11 @@ export default function Home() {
           <a href="#">Lorem</a>
         </div>
       </div>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24 mx-32">
+      <main className="flex min-h-screen flex-col items-center mx-52">
         <section id="home">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center my-4">
             <h1 className="font-bold text-6xl">Ecommerce Website for Parasol Laboratories</h1>
-            <div>
+            <div className="my-5">
               <Image src={"/logo.png"} alt="Parasol Labs logo" height={200} width={200} />
             </div>
             <p>A project for CS426 - Senior Projects, at the University of Nevada, Reno</p>
@@ -28,7 +30,7 @@ export default function Home() {
           </div>
         </section>
         <section id="description">
-          <div className="my-2">
+          <div className="my-4">
             <h3 className="font-semibold text-4xl">Project Description</h3>
             <p className="py-2">
               Team 21`s main goal with the ecommerce website for Parasol Laboratories Inc.is to build a platform
