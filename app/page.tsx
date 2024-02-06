@@ -60,16 +60,27 @@ export default function Home() {
           <div className="my-4 text-lg">
             <h3 className="font-semibold text-4xl ">Project Related Resources:</h3>
             <h5 className="text-xl font-semibold my-2">Problem domain book:</h5>
+            <div className="ml-10 ">
+              <ul className="list-disc">
+                <li>Riva, M. (2023) Real-World Next.js: Build scalable, high-performance, and modern web applications using Next.js, the React framework for production 1st Edition.  Packt Publishing.</li>
+              </ul>
+            </div>
             <h5 className="text-xl font-semibold my-2">Websites useful/related to the project:</h5>
             <div className="ml-10 ">
               <ul className="list-disc">
-                <li ><a href="https://nextjs.org/docs">Next.js</a></li>
-                <li><a href="https://nextui.org/docs">NextUI</a></li>
-                <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics</a></li>
-                <li><a href="https://docs.blender.org/manual/en/latest/">Blender</a></li>
+                <li><a href="https://nextjs.org/docs">Next.js: https://nextjs.org/docs</a></li>
+                <li><a href="https://nextui.org/docs">NextUI: https://nextui.org/docs</a></li>
+                <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics: https://analytics.google.com/analytics/academy/course/6</a></li>
+                <li><a href="https://docs.blender.org/manual/en/latest/">Blender: https://docs.blender.org/manual/en/latest/</a></li>
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">Technical reports, conference papers, and/or journal articles:</h5>
+            <div className="ml-10 ">
+              <ul className="list-disc">
+                <li>{`Capała, Łukasz, and Maria Skublewska-Paszkowska. "Comparison of AngularJS and React.js frameworks based on a web application." Journal of Computer Sciences Institute 6 (March 30, 2018): 82–86.https://ph.pollub.pl/index.php/jcsi/article/view/645.`}</li>
+                <li>{`Patel, Vishal. “Analyzing the Impact of Next.JS on Site Performance and SEO”. (2023). International Journal of Computer Applications Technology and Research. https://doi.org/10.7753/ijcatr1210.1004.`}</li>
+              </ul>
+            </div>
             <h5 className="text-xl font-semibold my-2">News and other information pertaining to your project topic or components:</h5>
           </div>
         </section>
