@@ -71,7 +71,6 @@ export default function Home() {
                 <li><a href="https://nextjs.org/docs">Next.js: https://nextjs.org/docs</a></li>
                 <li><a href="https://nextui.org/docs">NextUI: https://nextui.org/docs</a></li>
                 <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics: https://analytics.google.com/analytics/academy/course/6</a></li>
-                <li><a href="https://docs.blender.org/manual/en/latest/">Blender: https://docs.blender.org/manual/en/latest/</a></li>
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">Technical reports, conference papers, and/or journal articles:</h5>
@@ -82,6 +81,12 @@ export default function Home() {
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">News and other information pertaining to your project topic or components:</h5>
+            <div className="ml-10 ">
+              <ul className="list-disc">
+
+                <li><a href="https://docs.blender.org/manual/en/latest/">Blender: https://docs.blender.org/manual/en/latest/</a></li>
+              </ul>
+            </div>
           </div>
         </section>
       </main >
