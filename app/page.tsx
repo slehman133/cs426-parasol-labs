@@ -64,7 +64,7 @@ export default function Home() {
             <div className="ml-10 ">
               <ul className="list-disc">
                 <li ><a href="https://nextjs.org/docs">Next.js</a></li>
-                <li><a href="https://nextui.org/docs"></a>NextUI</li>
+                <li><a href="https://nextui.org/docs">NextUI</a></li>
                 <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics</a></li>
                 <li><a href="https://docs.blender.org/manual/en/latest/">Blender</a></li>
               </ul>
