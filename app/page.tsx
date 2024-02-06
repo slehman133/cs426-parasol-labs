@@ -57,12 +57,20 @@ export default function Home() {
           </div>
         </section>
         <section id="project-resources">
-          <div className="my-4">
-            <h3 className="font-semibold text-4xl ">Project Related Resources</h3>
-            <h5 className="text-xl font-semibold">Problem domain book</h5>
-            <h5 className="text-xl font-semibold">Websites useful/related to the project</h5>
-            <h5 className="text-xl font-semibold">Technical reports, conference papers, and/or journal articles</h5>
-            <h5 className="text-xl font-semibold">News and other information pertaining to your project topic or components</h5>
+          <div className="my-4 text-lg">
+            <h3 className="font-semibold text-4xl ">Project Related Resources:</h3>
+            <h5 className="text-xl font-semibold my-2">Problem domain book:</h5>
+            <h5 className="text-xl font-semibold my-2">Websites useful/related to the project:</h5>
+            <div className="ml-10 ">
+              <ul className="list-disc">
+                <li ><a href="https://nextjs.org/docs">Next.js</a></li>
+                <li><a href="https://nextui.org/docs"></a>NextUI</li>
+                <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics</a></li>
+                <li><a href="https://docs.blender.org/manual/en/latest/">Blender</a></li>
+              </ul>
+            </div>
+            <h5 className="text-xl font-semibold my-2">Technical reports, conference papers, and/or journal articles:</h5>
+            <h5 className="text-xl font-semibold my-2">News and other information pertaining to your project topic or components:</h5>
           </div>
         </section>
       </main >
