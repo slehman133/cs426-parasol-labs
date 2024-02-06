@@ -10,13 +10,13 @@ export default function Home() {
           <a href="#home">Home</a>
         </div>
         <div className="flex justify-evenly gap-10">
-          <a href="#description">About</a>
-          <a href="#">Lorem</a>
-          <a href="#">Lorem</a>
-          <a href="#">Lorem</a>
+          <a href="#description">Project Description</a>
+          <a href="#project-resources">Project Resources</a>
+          {/* <a href="#">Lorem</a> */}
+          {/* <a href="#">Lorem</a> */}
         </div>
       </div>
-      <main className="flex min-h-screen flex-col items-center mx-52">
+      <main className="flex min-h-screen flex-col mx-36">
         <section id="home">
           <div className="flex flex-col items-center my-4">
             <h1 className="font-bold text-6xl">Ecommerce Website for Parasol Laboratories</h1>
@@ -54,6 +54,15 @@ export default function Home() {
               sure to not develop any features or functionalities that would be detrimental or cause harm on to individuals or
               the public.
             </p>
+          </div>
+        </section>
+        <section id="project-resources">
+          <div className="my-4">
+            <h3 className="font-semibold text-4xl ">Project Related Resources</h3>
+            <h5 className="text-xl font-semibold">Problem domain book</h5>
+            <h5 className="text-xl font-semibold">Websites useful/related to the project</h5>
+            <h5 className="text-xl font-semibold">Technical reports, conference papers, and/or journal articles</h5>
+            <h5 className="text-xl font-semibold">News and other information pertaining to your project topic or components</h5>
           </div>
         </section>
       </main >
