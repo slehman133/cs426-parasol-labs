@@ -5,21 +5,19 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex flex-row justify-between my-4 mx-10 text-xl font-mono">
+      <div className="invisible flex flex-row justify-between my-4 mx-10 text-md font-mono lg:visible">
         <div>
           <a href="#home">Home</a>
         </div>
         <div className="flex justify-evenly gap-10">
           <a href="#description">Project Description</a>
           <a href="#project-resources">Project Resources</a>
-          {/* <a href="#">Lorem</a> */}
-          {/* <a href="#">Lorem</a> */}
         </div>
       </div>
-      <main className="flex min-h-screen flex-col mx-36">
+      <main className="flex min-h-screen flex-col mx-5 md:mx-36">
         <section id="home">
-          <div className="flex flex-col items-center my-4">
-            <h1 className="font-bold text-6xl">Ecommerce Website for Parasol Laboratories</h1>
+          <div className="flex flex-col items-center my-4 text-center">
+            <h1 className="font-bold text-xl md:text-6xl m-2">Ecommerce Website for Parasol Laboratories</h1>
             <div className="my-5">
               <Image src={"/logo.png"} alt="Parasol Labs logo" height={200} width={200} />
             </div>
@@ -56,13 +54,13 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section id="project-resources">
+        <section id="project-resources max-w-3xl">
           <div className="my-4 text-lg">
             <h3 className="font-semibold text-4xl ">Project Related Resources:</h3>
             <h5 className="text-xl font-semibold my-2">Problem domain book:</h5>
             <div className="ml-10 ">
               <ul className="list-disc">
-                <li>Riva, M. (2023) Real-World Next.js: Build scalable, high-performance, and modern web applications using Next.js, the React framework for production 1st Edition.  Packt Publishing.</li>
+                <li className="text-ellipsis overflow-hidden">Riva, M. (2023) Real-World Next.js: Build scalable, high-performance, and modern web applications using Next.js, the React framework for production 1st Edition.  Packt Publishing.</li>
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">Websites useful/related to the project:</h5>
@@ -70,21 +68,20 @@ export default function Home() {
               <ul className="list-disc">
                 <li><a href="https://nextjs.org/docs">Next.js: https://nextjs.org/docs</a></li>
                 <li><a href="https://nextui.org/docs">NextUI: https://nextui.org/docs</a></li>
-                <li><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics: https://analytics.google.com/analytics/academy/course/6</a></li>
+                <li className="text-ellipsis overflow-hidden"><a href="https://analytics.google.com/analytics/academy/course/6">Google Analytics: https://analytics.google.com/analytics/academy/course/6</a></li>
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">Technical reports, conference papers, and/or journal articles:</h5>
             <div className="ml-10 ">
               <ul className="list-disc">
-                <li>{`Capała, Łukasz, and Maria Skublewska-Paszkowska. "Comparison of AngularJS and React.js frameworks based on a web application." Journal of Computer Sciences Institute 6 (March 30, 2018): 82–86.https://ph.pollub.pl/index.php/jcsi/article/view/645.`}</li>
-                <li>{`Patel, Vishal. “Analyzing the Impact of Next.JS on Site Performance and SEO”. (2023). International Journal of Computer Applications Technology and Research. https://doi.org/10.7753/ijcatr1210.1004.`}</li>
+                <li className="text-ellipsis overflow-hidden">{`Capała, Łukasz, and Maria Skublewska-Paszkowska. "Comparison of AngularJS and React.js frameworks based on a web application." Journal of Computer Sciences Institute 6 (March 30, 2018): 82–86.https://ph.pollub.pl/index.php/jcsi/article/view/645.`}</li>
+                <li className="text-ellipsis overflow-hidden">{`Patel, Vishal. “Analyzing the Impact of Next.JS on Site Performance and SEO”. (2023). International Journal of Computer Applications Technology and Research. https://doi.org/10.7753/ijcatr1210.1004.`}</li>
               </ul>
             </div>
             <h5 className="text-xl font-semibold my-2">News and other information pertaining to your project topic or components:</h5>
             <div className="ml-10 ">
               <ul className="list-disc">
-
-                <li><a href="https://docs.blender.org/manual/en/latest/">Blender: https://docs.blender.org/manual/en/latest/</a></li>
+                <li className="text-ellipsis overflow-hidden"><a href="https://docs.blender.org/manual/en/latest/">Blender: https://docs.blender.org/manual/en/latest/</a></li>
               </ul>
             </div>
           </div>
